@@ -1,0 +1,4 @@
+baseURL = 'https://srgsanky.github.io/rusty-treasures/'
+languageCode = 'en-us'
+title = 'Rusty Treasures'
+theme = 'ananke'
