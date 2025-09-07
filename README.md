@@ -11,6 +11,12 @@ My collection of treasures from the Rust ecosystem.
 hugo new content content/posts/making-time-human.md
 ```
 
+## Serve the blog locally
+
+```bash
+hugo server
+```
+
 ## Internals
 
 ### Layout
