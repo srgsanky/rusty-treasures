@@ -7,6 +7,12 @@ title = 'Making Time Human'
 
 I can't read epochs and instantly know what year they represent. I can't look at raw seconds and tell how far they are from now.
 
+|                     | Input                 | Output                           |
+| ------------------- | --------------------- | -------------------------------- |
+| Seconds since epoch | `1746388621`          | `2025-05-04T19:57:01.000000000Z` |
+| Duration            | `std::time::Duration` | `1h 5s`                          |
+| Time delta from now | `chrono::TimeDelta`   | `1h 5s`                          |
+
 # Convert seconds since epoch to human readable format
 
 Prerequisite: Use chrono crate <https://crates.io/crates/chrono>
