@@ -1,0 +1,9 @@
+{{/* 
+    resources.Get: Tells Hugo to find the file in the assets directory. 
+    minify: Removes whitespace and comments to reduce file size.
+    fingerprint: Adds a unique hash to the filename (e.g., custom.min.2a43b.css), which helps with cache busting.
+*/}}
+
+
+{{ $customTableCSS := resources.Get "css/custom-table-styles.css" | minify | fingerprint }}
+<link rel="stylesheet" href="{{ $customTableCSS.RelPermalink }}" integrity="{{ $customTableCSS.Data.Integrity }}">
