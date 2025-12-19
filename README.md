@@ -14,6 +14,9 @@ hugo new content content/posts/making-time-human.md
 ## Serve the blog locally
 
 ```bash
+# Download the theme
+git submodule update --init --recursive
+
 hugo server
 ```
 
