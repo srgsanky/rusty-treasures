@@ -2,6 +2,7 @@
 date = '2025-05-04T12:50:10-07:00'
 draft = false
 title = 'Making Time Human'
+toc = true
 +++
 
 
@@ -13,7 +14,7 @@ I can't read epochs and instantly know what year they represent. I can't look at
 | Duration            | `std::time::Duration` | `1h 5s`                          |
 | Time delta from now | `chrono::TimeDelta`   | `1h 5s`                          |
 
-# Convert seconds since epoch to human readable format
+## Convert seconds since epoch to human readable format
 
 Prerequisite: Use chrono crate <https://crates.io/crates/chrono>
 
@@ -41,7 +42,7 @@ References:
 * <https://docs.rs/chrono/latest/chrono/trait.TimeZone.html#method.timestamp_opt>
 * <https://docs.rs/chrono/latest/chrono/format/strftime/index.html>
 
-# Convert `std::time::Duration` to human readable format
+## Convert `std::time::Duration` to human readable format
 
 
 ```rs
@@ -116,7 +117,7 @@ fn format_duration(duration: Duration) -> String {
 References:
 * <https://doc.rust-lang.org/std/time/struct.Duration.html>
 
-# Convert `chrono::TimeDelta` to human readable format
+## Convert `chrono::TimeDelta` to human readable format
 
 ```rs
 use chrono::{DateTime, TimeDelta, Utc};

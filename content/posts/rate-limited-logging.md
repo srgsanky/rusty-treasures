@@ -2,6 +2,7 @@
 date = '2025-05-21T15:03:15-07:00'
 draft = false
 title = 'Rate Limited Logging'
+toc = true
 +++
 
 I want to log messages under exceptional situations. If for some unknown reason, the exceptional situation becomes the common case, I don't

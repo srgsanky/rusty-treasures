@@ -2,6 +2,7 @@
 date = '2025-09-08T21:51:43-07:00'
 draft = false
 title = 'Scope of Access Modifiers in Rust'
+toc = true
 +++
 
 Rust supports various access modifiers

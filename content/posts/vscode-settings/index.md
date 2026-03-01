@@ -2,9 +2,10 @@
 date = '2025-12-19T12:29:33-08:00'
 draft = false
 title = 'Vscode Settings'
+toc = true
 +++
 
-# Highlight async/await keywords
+## Highlight async/await keywords
 
 Highlight async/await keywords using bold golden yellow.
 
@@ -23,7 +24,7 @@ Here is a demo of how this highlights all async context
 
 ![](rust-analyzer-highlight-async-ontext.png)
 
-# Control automatic formatting
+## Control automatic formatting
 
 ```json
   "[rust]": {
@@ -35,7 +36,7 @@ Here is a demo of how this highlights all async context
   },
 ```
 
-# Run clippy on save
+## Run clippy on save
 
 ```json
   "rust-analyzer.check.overrideCommand": [

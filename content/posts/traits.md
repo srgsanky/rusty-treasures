@@ -2,10 +2,11 @@
 date = '2025-12-19T16:30:33-08:00'
 draft = false
 title = 'Traits'
+toc = true
 +++
 
 
-# Async traits
+## Async traits
 
 Async traits allow the use of `async` functions.
 

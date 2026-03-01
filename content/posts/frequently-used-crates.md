@@ -2,13 +2,14 @@
 date = '2025-12-19T13:27:01-08:00'
 draft = false
 title = 'Frequently Used Crates'
+toc = true
 +++
 
-# By name
+## By name
 
 NOTE: The crates are ordered in alphabetic order.
 
-## anyhow
+### anyhow
 
 Create error types on the fly without having to define them. Use this when you
 only care about the presence or absence of an error without worrying about the
@@ -16,19 +17,19 @@ actual error.
 
 <https://crates.io/crates/anyhow>
 
-## clap
+### clap
 
 Program command line arguments easily.
 
 <https://crates.io/crates/clap>
 
-## futures
+### futures
 
 Utilities for async programming.
 
 <https://crates.io/crates/futures>
 
-## hashbrown
+### hashbrown
 
 Rust port of Google's SwissTable
 
@@ -40,64 +41,64 @@ Swisstable links
 1. <https://github.com/abseil/abseil-cpp/blob/master/absl/container/internal/raw_hash_set.h>
 1. <https://www.youtube.com/watch?v=ncHmEUmJZf4>
 
-## mockall
+### mockall
 
 Mock object library.
 
 <https://crates.io/crates/mockall>
 
 
-## quote
+### quote
 
 Turns rust syntax tree into tokens of rust source code. This is useful in writing proc macros.
 
 <https://crates.io/crates/quote>
 
-## rand
+### rand
 
 Generate random numbers.
 
 <https://crates.io/crates/rand>
 
-## reqwest
+### reqwest
 
 HTTP client library.
 
 <https://crates.io/crates/reqwest>
 
-## syn
+### syn
 
 Parser for rust source code. This is useful in writing proc macros.
 
 <https://crates.io/crates/syn>
 
-## tokio
+### tokio
 
 Async runtime that drives async tasks to completion.
 
 <https://crates.io/crates/tokio>
 
 
-# By category
+## By category
 
-## Async programming
+### Async programming
 
 1. futures
 1. reqwest
 1. tokio
 
-## Command line arguments
+### Command line arguments
 
 1. clap
 
-## Data structures
+### Data structures
 
 1. hashbrown (port of swisstable)
 
-## Testing
+### Testing
 
 1. mockall
 
-## Writing macros
+### Writing macros
 
 1. syn and quote
